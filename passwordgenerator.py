@@ -9,7 +9,7 @@ if __name__ == "__main__":
     # print(s3)
     s4=string.punctuation
     # print(s4)
-    plen=int(input("Enter the length of the password \n"))
+    plen=int(input("Enter the length of the password \n")) #Enter password length here
     s=[]
     s.extend(list(s1))
     s.extend(list(s2))
@@ -17,6 +17,6 @@ if __name__ == "__main__":
     s.extend(list(s4))
     random.shuffle(s)
     random.shuffle(s)
-    print("Your strong password of length "+str(plen)+" is:")
-    print("".join(s[0:plen]))
+    print("Your strong password of length "+str(plen)+" is:") 
+    print("".join(s[0:plen])) #Get the password from here
     
